@@ -13,7 +13,7 @@ export const ChessList = () => {
          .catch((hiba) => console.log(hiba))
          .finally(() => setFetchPending(false));
     }, []);
-
+// ide!
     return (
         <div className="container mt-5">
             <h2 className="text-center">Sakkozók</h2>
