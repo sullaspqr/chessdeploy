@@ -4162,19 +4162,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\farka\\.nuget\\packages\\": {}
+    "C:\\Users\\nemethb.HAQT00R-LAPTOP\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\!EXTDRIVE\\Kandó\\2023_2024\\Vizsgafeladatok2024\\Nappali\\megoldás\\Farkas_Zoltán_backend\\Farkas_Zoltán_backend\\Farkas_Zoltán_backend.csproj",
+      "projectUniqueName": "C:\\Users\\nemethb.HAQT00R-LAPTOP\\Documents\\2425-2-14C-1-csop\\sakk\\Farkas_Zoltán_backend.csproj",
       "projectName": "Farkas_Zoltán_backend",
-      "projectPath": "Z:\\!EXTDRIVE\\Kandó\\2023_2024\\Vizsgafeladatok2024\\Nappali\\megoldás\\Farkas_Zoltán_backend\\Farkas_Zoltán_backend\\Farkas_Zoltán_backend.csproj",
-      "packagesPath": "C:\\Users\\farka\\.nuget\\packages\\",
-      "outputPath": "Z:\\!EXTDRIVE\\Kandó\\2023_2024\\Vizsgafeladatok2024\\Nappali\\megoldás\\Farkas_Zoltán_backend\\Farkas_Zoltán_backend\\obj\\",
+      "projectPath": "C:\\Users\\nemethb.HAQT00R-LAPTOP\\Documents\\2425-2-14C-1-csop\\sakk\\Farkas_Zoltán_backend.csproj",
+      "packagesPath": "C:\\Users\\nemethb.HAQT00R-LAPTOP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nemethb.HAQT00R-LAPTOP\\Documents\\2425-2-14C-1-csop\\sakk\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\farka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nemethb.HAQT00R-LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4194,7 +4199,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4234,8 +4245,80 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle.Cryptography' 2.2.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8xfc-gm6g-vgpv",
+      "libraryId": "BouncyCastle.Cryptography",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle.Cryptography' 2.2.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m44j-cfrm-g8qc",
+      "libraryId": "BouncyCastle.Cryptography",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle.Cryptography' 2.2.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v435-xc8x-wvr9",
+      "libraryId": "BouncyCastle.Cryptography",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Drawing.Common' 4.7.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
